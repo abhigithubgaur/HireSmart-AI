@@ -14,33 +14,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
 
-#  ai:
-#    openai:
-#      api-key: AIzaSyBrixCrvF0M2XNm7ECZnc8doaF4018Xhcg
-#      base-url: https://generativelanguage.googleapis.com/v1beta/openai/
-#      chat:
-#        options:
-#          model: gemini-2.0-flash
-#      embedding:
-#        options:
-#          model: gemini-embedding-001
-#          dimensions: 768
-
-    # Gemini API Settings
-#  ai:
-#    google:
-#      genai:
-#        project-id: gen-lang-client-0454778970
-#        api-key: AIzaSyBrixCrvF0M2XNm7ECZnc8doaF4018Xhcg
-#    # 'gemini-1.5-flash' is the fastest and best for free-tier use cases
-#        chat:
-#          options:
-#            model: gemini-2.0-flash
-#        embedding:
-#          options:
-#            model: gemini-embedding-001
-#            task-type: RETRIEVAL_DOCUMENT
-
   ai:
     ollama:
       base-url: http://localhost:11434
