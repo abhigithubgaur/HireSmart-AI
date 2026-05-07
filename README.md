@@ -10,68 +10,70 @@ The platform analyzes resumes against job descriptions, ranks candidates intelli
 
 ✨ Features
 🤖 Automated Resume Ranking
-AI-powered resume analysis
-Intelligent ranking based on:
-Skill relevance
-Experience match
-Contextual understanding
-Semantic similarity
+      AI-powered resume analysis
+      Intelligent ranking based on:
+      Skill relevance
+      Experience match
+      Contextual understanding
+      Semantic similarity
 🔍 Semantic Search & Matching
-Uses vector embeddings for contextual candidate matching
-Detects relevant skills even when terminology differs
-Improves hiring accuracy beyond keyword filtering
+      Uses vector embeddings for contextual candidate matching
+      Detects relevant skills even when terminology differs
+      Improves hiring accuracy beyond keyword filtering
 🧠 Local AI Inference
-Integrated with Ollama
-Supports local LLM execution for:
-Better privacy
-Faster inference
-Reduced API dependency
+      Integrated with Ollama
+      Supports local LLM execution for:
+      Better privacy
+      Faster inference
+      Reduced API dependency
 ⚡ Full-Stack Architecture
-Modern React frontend
-Scalable Spring Boot backend
-RESTful API architecture
+      Modern React frontend
+      Scalable Spring Boot backend
+      RESTful API architecture
 🗄️ Efficient Data Management
-Optimized relational database schema
-Handles:
-Candidate profiles
-Job postings
-Resume scores
-Match analytics
+      Optimized relational database schema
+      Handles:
+      Candidate profiles
+      Job postings
+      Resume scores
+      Match analytics
+
 🛠️ Tech Stack
-Frontend
-React.js
-Tailwind CSS
-Backend
-Java
-Spring Boot
-Spring Data JPA
-AI / ML
-Gemini API
-Ollama (Local LLM)
-Vector Databases
-Semantic Embeddings
-Database
-PostgreSQL
-Neon DB
-MySQL
-Tools & Infrastructure
-Maven
-REST APIs
+  Frontend
+      React.js
+      Tailwind CSS
+  Backend
+      Java
+      Spring Boot
+      Spring Data JPA
+  AI / ML
+      Gemini API
+      Ollama (Local LLM)
+      Vector Databases
+      Semantic Embeddings
+  Database
+      PostgreSQL
+      Neon DB
+      MySQL
+  Tools & Infrastructure
+      Maven
+      REST APIs
+
 📂 Project Structure
+
 HireSmart-AI/
 │
 ├── hiresmart-frontend/     # React frontend
-├── hiresmart-backend/      # Spring Boot backend
+├── hiresmart/      # Spring Boot backend
 │
 ├── README.md
 └── ...
+
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
+
 git clone https://github.com/abhigithubgaur/HireSmart-AI.git
 cd HireSmart-AI
-
-Repository:
-HireSmart-AI Repository
 
 2️⃣ Database Configuration
 
@@ -80,6 +82,7 @@ Configure your database in application.properties:
 spring.datasource.url=jdbc:postgresql://localhost:5432/hiresmart
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+
 3️⃣ AI Configuration (Ollama)
 
 Install and run Ollama locally.
@@ -88,18 +91,18 @@ Pull the Llama 3 model:
 
 ollama pull llama3
 
-Official Website:
-Ollama
-
 4️⃣ Backend Setup
-cd hiresmart-backend
+
+cd hiresmart
 ./mvnw clean install
 ./mvnw spring-boot:run
 
 Backend runs on:
 
 http://localhost:8080
+
 5️⃣ Frontend Setup
+
 cd hiresmart-frontend
 npm install
 npm start
@@ -107,57 +110,43 @@ npm start
 Frontend runs on:
 
 http://localhost:3000
-🔄 Workflow
-Recruiter uploads resumes
-System extracts candidate data
-AI analyzes resumes against job descriptions
-Semantic search generates contextual matches
-Candidates are ranked intelligently
-Recruiters review top-ranked applicants
+
 🧠 AI Capabilities
 
 HireSmart leverages:
 
-LLM-powered reasoning
-Semantic embeddings
-Context-aware matching
-Intelligent scoring algorithms
+  LLM-powered reasoning
+  Semantic embeddings
+  Context-aware matching
+  Intelligent scoring algorithms
 
 This enables the system to:
 
-Understand candidate expertise deeply
-Reduce false negatives in hiring
-Improve recruitment efficiency
-📸 Screenshots
+  Understand candidate expertise deeply
+  Reduce false negatives in hiring
+  Improve recruitment efficiency
 
-Add screenshots or demo GIFs here.
-
-Example:
-
-![Dashboard](./screenshots/dashboard.png)
 🚀 Future Enhancements
-Interview scheduling system
-AI-generated interview questions
-Resume feedback assistant
-Recruiter analytics dashboard
-Multi-language resume support
-Real-time collaboration tools
+    Interview scheduling system
+    AI-generated interview questions
+    Resume feedback assistant
+    Recruiter analytics dashboard
+    Multi-language resume support
+    Real-time collaboration tools
+
 🤝 Contributing
 
 Contributions are welcome!
 
 Steps to Contribute
-Fork the repository
-Create a feature branch
-git checkout -b feature-name
-Commit your changes
-git commit -m "Add feature"
-Push to your branch
-git push origin feature-name
-Open a Pull Request
-📄 License
-
-This project is licensed under the MIT License.
+  1. Fork the repository
+  2.Create a feature branch
+    git checkout -b feature-name
+  3.Commit your changes
+    git commit -m "Add feature"
+  4.Push to your branch
+    git push origin feature-name
+  5.Open a Pull Request
 
 👨‍💻 Author
 
